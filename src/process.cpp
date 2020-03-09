@@ -34,7 +34,7 @@ Process::~Process()
 {
     delete[] burst_times;
 }
-
+//make function declarations const to fix compile error if it occurs
 uint16_t Process::getPid()
 {
     return pid;
